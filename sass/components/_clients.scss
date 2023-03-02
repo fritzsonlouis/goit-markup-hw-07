@@ -1,0 +1,39 @@
+/*Clients Section*/
+
+.clients__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+
+.clients__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients__link {
+    border: 1px solid $icon-color-main;
+    border-radius: 6px;
+    width: 170px;
+    height: 92px;
+    color: $icon-color-main
+}
+
+/*Icon Fill Studio */
+.clients__link:hover,
+.clients__link:focus {
+  border: 1px solid $primary-color;
+}
+
+.clients__link {
+  fill: currentColor;
+}
+
+.clients__link:hover,
+.clients__link:focus {
+  fill: $primary-color;
+}

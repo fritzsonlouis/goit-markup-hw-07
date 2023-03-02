@@ -1,0 +1,38 @@
+
+.header__container {
+    @include disCenter();
+    background-color: $light-bg-color;
+}
+
+.header__nav {
+    @include disCenter();
+}
+
+.nav__list {
+    @include disCenter();
+    margin: 0;
+    margin-left: 93px;
+}
+
+.nav__link {
+    display: block;
+}
+
+.header__address-list {
+    @include disCenter();
+     
+    margin-left: auto;
+}
+
+.header__address-list li:last-child {
+    margin-left: 50px;
+}
+
+.nav__list li:nth-child(2),
+.nav__list li:nth-child(3) {
+    margin-left: 50px;
+}
+
+.nav__link-active {
+    position: relative;
+}

@@ -1,0 +1,52 @@
+.ourteam__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    text-align: center;
+} 
+
+.ourteam__section {
+    background-color: var(--lightgrey-bg-color);
+}
+
+.ourteam__item {
+    background: var(--light-bg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.ourteam__header {
+    font-weight: 500;
+}
+
+.ourteam__header,
+.ourteam__description {
+    line-height: 1.888;
+    letter-spacing: 0.03em;
+}
+
+.ourteam__description {
+    color: $secondary-colorFont;
+}
+
+.social__icon-thumb {
+    background-color: transparent;
+    border-radius: 50%;
+    fill: $icon-color-main;
+
+    &:hover,
+    &:active {
+        background-color: $primary-color;
+    }
+}
+
+.social__icon-thumb:hover {
+    fill: $third-colorFont;
+}
+
+.social__icon-thumb {
+    transition: background-color $timing $time-function,
+    color $timing $time-function,
+    box-shadow $timing $time-function;
+}

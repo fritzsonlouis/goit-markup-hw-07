@@ -1,0 +1,28 @@
+.portfolio__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.overlay {
+    position: relative;
+    width: 370px;
+    overflow: hidden;
+}
+
+.overlay__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+}
+
+.portfolio__item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+.portfolio__header,
+.portfolio__description {
+    margin-left: 24px;
+    margin-right: 24px;
+}

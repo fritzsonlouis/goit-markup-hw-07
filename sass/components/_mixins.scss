@@ -1,0 +1,15 @@
+@mixin transition {
+    transition: background-color var(--timing) var(--time-function),
+    color var(--timing) var(--time-function),
+    box-shadow var(--timing) var(--time-function);
+}
+
+@mixin btnEffects {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+@mixin disCenter {
+    display: flex;
+    align-items: center;
+}

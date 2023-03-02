@@ -1,0 +1,66 @@
+/*Portfolio main*/
+
+.portfolio__item {
+    margin-bottom: 30px;
+    background: $light-bg-color;
+    border-right: 1px solid $light-bg2-color;
+    border-bottom: 1px solid $light-bg2-color;
+    border-left: 1px solid $light-bg2-color;
+    position: relative;
+    transition-property: box-shadow;
+    transition-duration: $timing;
+    transition-timing-function: $time-function;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);  
+    }
+}
+
+.overlay__text {
+    transform: translateY(295px);
+    background-color: $primary-color;
+    opacity: 90%;
+    color: $third-colorFont;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-justify: center;
+    padding-top: 63px;
+    padding-bottom: 91px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.portfolio__item:hover .overlay__text {
+    transform: translateY(0px);
+    transition: transform 350ms ease;
+}
+
+.overlay__card {
+    /* padding: 20px 24px; */
+    border-bottom: 1px solid $bordercolor;
+    border-left: 1px solid $bordercolor;
+    border-right: 1px solid $bordercolor;
+}
+
+.portfolio__header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.portfolio__description {
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: $secondary-colorFont;
+    margin-bottom: 20px;
+}
+
